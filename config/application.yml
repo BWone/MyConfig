@@ -1,0 +1,24 @@
+#yml中使用文档节：---
+
+server:
+  port: 8080
+  servlet:
+    context-path: /myweb   #context-path:给出上下文路径
+spring:
+  profiles:
+    active: dev    #指定使用哪一节
+---
+server:
+  port: 8081
+spring:
+  profiles: prod    #文档节的名字
+---
+server:
+  port: 8082
+spring:
+  profiles: dev
+---
+server:
+  port: 8083
+spring:
+  profiles: test

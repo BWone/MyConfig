@@ -1,0 +1,18 @@
+#1)键值对的形式   key:(空格)value
+#2)括号形式    user: {username: zhangsan,age: 20}
+
+server:
+  port: 8081
+  user:
+    #usn: zhangsan
+    #age: 20
+    boss: false
+    birthday: 2006/6/6
+    maps: {chinese: 70, english: 80}
+    lists:
+      - lisi
+      - wangwu
+    cat:
+      name: 小萌
+      age: 6
+
